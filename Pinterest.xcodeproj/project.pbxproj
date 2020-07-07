@@ -7,23 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C7E04152483171D00A7D4D3 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7E04142483171D00A7D4D3 /* DetailViewController.swift */; };
 		2C892B052481AADF00C693DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C892B042481AADF00C693DD /* AppDelegate.swift */; };
 		2C892B072481AADF00C693DD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C892B062481AADF00C693DD /* SceneDelegate.swift */; };
 		2C892B092481AADF00C693DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C892B082481AADF00C693DD /* ViewController.swift */; };
-		2C892B0C2481AADF00C693DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C892B0A2481AADF00C693DD /* Main.storyboard */; };
 		2C892B0E2481AAE000C693DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C892B0D2481AAE000C693DD /* Assets.xcassets */; };
 		2C892B112481AAE000C693DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C892B0F2481AAE000C693DD /* LaunchScreen.storyboard */; };
+		2C892B232481B11D00C693DD /* CCZoomTransitionVCExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C892B1F2481B11C00C693DD /* CCZoomTransitionVCExtension.swift */; };
+		2C892B242481B11D00C693DD /* CCSwipBackPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C892B202481B11D00C693DD /* CCSwipBackPresentationController.swift */; };
+		2C892B252481B11D00C693DD /* CCZoomAnimatedTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C892B212481B11D00C693DD /* CCZoomAnimatedTransitioning.swift */; };
+		2C892B262481B11D00C693DD /* CCZoomTransitioner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C892B222481B11D00C693DD /* CCZoomTransitioner.swift */; };
+		2C892B282481B12B00C693DD /* PostProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C892B272481B12B00C693DD /* PostProvider.swift */; };
+		2C892B2A2481B13400C693DD /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C892B292481B13400C693DD /* UIColorExtension.swift */; };
+		2C892B2C2481B14500C693DD /* GIFImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C892B2B2481B14500C693DD /* GIFImageView.swift */; };
+		2C892B2E2481B14800C693DD /* giphy.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2C892B2D2481B14800C693DD /* giphy.gif */; };
+		2C892B302481C11500C693DD /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C892B2F2481C11500C693DD /* extensions.swift */; };
+		2C892B322481CFB700C693DD /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C892B312481CFB700C693DD /* MainTabBarController.swift */; };
+		2C892B342481D10700C693DD /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C892B332481D10700C693DD /* FeedViewController.swift */; };
+		2C892B362481E1E600C693DD /* PinterestLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C892B352481E1E600C693DD /* PinterestLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C7E04142483171D00A7D4D3 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		2C892B012481AADF00C693DD /* Pinterest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pinterest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C892B042481AADF00C693DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C892B062481AADF00C693DD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2C892B082481AADF00C693DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2C892B0B2481AADF00C693DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2C892B0D2481AAE000C693DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C892B102481AAE000C693DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C892B122481AAE000C693DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C892B1F2481B11C00C693DD /* CCZoomTransitionVCExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCZoomTransitionVCExtension.swift; sourceTree = "<group>"; };
+		2C892B202481B11D00C693DD /* CCSwipBackPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCSwipBackPresentationController.swift; sourceTree = "<group>"; };
+		2C892B212481B11D00C693DD /* CCZoomAnimatedTransitioning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCZoomAnimatedTransitioning.swift; sourceTree = "<group>"; };
+		2C892B222481B11D00C693DD /* CCZoomTransitioner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCZoomTransitioner.swift; sourceTree = "<group>"; };
+		2C892B272481B12B00C693DD /* PostProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostProvider.swift; sourceTree = "<group>"; };
+		2C892B292481B13400C693DD /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		2C892B2B2481B14500C693DD /* GIFImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GIFImageView.swift; sourceTree = "<group>"; };
+		2C892B2D2481B14800C693DD /* giphy.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = giphy.gif; sourceTree = "<group>"; };
+		2C892B2F2481C11500C693DD /* extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
+		2C892B312481CFB700C693DD /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		2C892B332481D10700C693DD /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		2C892B352481E1E600C693DD /* PinterestLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinterestLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +80,67 @@
 		2C892B032481AADF00C693DD /* Pinterest */ = {
 			isa = PBXGroup;
 			children = (
+				2C892B1A2481B0DF00C693DD /* Helper */,
 				2C892B042481AADF00C693DD /* AppDelegate.swift */,
 				2C892B062481AADF00C693DD /* SceneDelegate.swift */,
-				2C892B082481AADF00C693DD /* ViewController.swift */,
-				2C892B0A2481AADF00C693DD /* Main.storyboard */,
 				2C892B0D2481AAE000C693DD /* Assets.xcassets */,
 				2C892B0F2481AAE000C693DD /* LaunchScreen.storyboard */,
 				2C892B122481AAE000C693DD /* Info.plist */,
+				2C892B082481AADF00C693DD /* ViewController.swift */,
+				2C892B312481CFB700C693DD /* MainTabBarController.swift */,
+				2C892B332481D10700C693DD /* FeedViewController.swift */,
+				2C892B352481E1E600C693DD /* PinterestLayout.swift */,
+				2C7E04142483171D00A7D4D3 /* DetailViewController.swift */,
 			);
 			path = Pinterest;
+			sourceTree = "<group>";
+		};
+		2C892B1A2481B0DF00C693DD /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				2C892B2D2481B14800C693DD /* giphy.gif */,
+				2C892B1E2481B10C00C693DD /* Subclasses */,
+				2C892B1D2481B10300C693DD /* Extensions */,
+				2C892B1C2481B0FA00C693DD /* Etc */,
+				2C892B1B2481B0F300C693DD /* CCZoomTransition */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		2C892B1B2481B0F300C693DD /* CCZoomTransition */ = {
+			isa = PBXGroup;
+			children = (
+				2C892B202481B11D00C693DD /* CCSwipBackPresentationController.swift */,
+				2C892B212481B11D00C693DD /* CCZoomAnimatedTransitioning.swift */,
+				2C892B222481B11D00C693DD /* CCZoomTransitioner.swift */,
+				2C892B1F2481B11C00C693DD /* CCZoomTransitionVCExtension.swift */,
+			);
+			path = CCZoomTransition;
+			sourceTree = "<group>";
+		};
+		2C892B1C2481B0FA00C693DD /* Etc */ = {
+			isa = PBXGroup;
+			children = (
+				2C892B272481B12B00C693DD /* PostProvider.swift */,
+			);
+			path = Etc;
+			sourceTree = "<group>";
+		};
+		2C892B1D2481B10300C693DD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2C892B292481B13400C693DD /* UIColorExtension.swift */,
+				2C892B2F2481C11500C693DD /* extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2C892B1E2481B10C00C693DD /* Subclasses */ = {
+			isa = PBXGroup;
+			children = (
+				2C892B2B2481B14500C693DD /* GIFImageView.swift */,
+			);
+			path = Subclasses;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +202,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C892B112481AAE000C693DD /* LaunchScreen.storyboard in Resources */,
+				2C892B2E2481B14800C693DD /* giphy.gif in Resources */,
 				2C892B0E2481AAE000C693DD /* Assets.xcassets in Resources */,
-				2C892B0C2481AADF00C693DD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +214,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C892B232481B11D00C693DD /* CCZoomTransitionVCExtension.swift in Sources */,
 				2C892B092481AADF00C693DD /* ViewController.swift in Sources */,
+				2C892B322481CFB700C693DD /* MainTabBarController.swift in Sources */,
+				2C892B262481B11D00C693DD /* CCZoomTransitioner.swift in Sources */,
+				2C892B302481C11500C693DD /* extensions.swift in Sources */,
 				2C892B052481AADF00C693DD /* AppDelegate.swift in Sources */,
+				2C892B252481B11D00C693DD /* CCZoomAnimatedTransitioning.swift in Sources */,
+				2C892B2C2481B14500C693DD /* GIFImageView.swift in Sources */,
+				2C892B2A2481B13400C693DD /* UIColorExtension.swift in Sources */,
+				2C892B242481B11D00C693DD /* CCSwipBackPresentationController.swift in Sources */,
+				2C892B362481E1E600C693DD /* PinterestLayout.swift in Sources */,
+				2C892B282481B12B00C693DD /* PostProvider.swift in Sources */,
+				2C7E04152483171D00A7D4D3 /* DetailViewController.swift in Sources */,
+				2C892B342481D10700C693DD /* FeedViewController.swift in Sources */,
 				2C892B072481AADF00C693DD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +235,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2C892B0A2481AADF00C693DD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2C892B0B2481AADF00C693DD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2C892B0F2481AAE000C693DD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -287,6 +367,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PSWX57M5H9;
 				INFOPLIST_FILE = Pinterest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,15 +383,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PSWX57M5H9;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Pinterest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.suleymankocak.Pinterest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
